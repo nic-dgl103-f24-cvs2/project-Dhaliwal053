@@ -34,10 +34,11 @@ The current website has very outdated look, lacks engaging content organization,
 
 **Content Blocks**:
 
-- Header with logo, nav and searchbar.
+- Header with logo and nav .
 - Hero Introduction to Ascent Physiotherapy with a brief mission statement.
 - Overview of core services with icons and brief descriptions.
 - Call-to-action button (e.g., "Book an Appointment").
+- Weblinks
 - Footer will be having information for contact.
 
 **Features**:
