@@ -230,8 +230,8 @@ section.services {
 
 /*  Footer Styles */
 .footer {
-  background-color: #f2f9fc; */
-  color: #333333; 
+  background-color: #f2f9fc; 
+  
   padding: 30px 15px; 
   text-align: left; 
 }
@@ -393,13 +393,6 @@ section.services {
 .footer-info p {
   font-size: 1.1rem; 
 
-.footer-links {
-  text-align: left;  
-}
-
-.footer-links a {
-  font-size: 1.1rem; 
-}
 }
 
 }
@@ -534,7 +527,7 @@ section.services {
   padding: 40px 20px;
   max-width: 1000px;
   margin: 0 auto;
-  background-color:
+  
 }
 
 .facilities h2 {
@@ -654,3 +647,71 @@ section.services {
 }
 
 
+/* Styling for Hours of Operation and Video Section */
+.hours-and-video {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.hours-and-video h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hours-and-video .hours {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.hours-and-video .hours p {
+  margin: 5px 0;
+}
+
+.hours-and-video h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 720px;
+  height: 405px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+  .hours-and-video {
+    padding: 30px 15px;
+  }
+
+  .hours-and-video h2 {
+    font-size: 1.8rem;
+  }
+
+  .hours-and-video .hours p {
+    font-size: 1rem;
+  }
+
+  .hours-and-video h3 {
+    font-size: 1.3rem;
+  }
+
+  .video-container iframe {
+    height: 315px;
+  }
+}
