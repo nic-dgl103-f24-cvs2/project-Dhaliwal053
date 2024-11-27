@@ -226,7 +226,7 @@ section.services {
   background-color: #004b87;
 }
 
-/* Responsive Design - For Mobile Screens */
+
 
 /*  Footer Styles */
 .footer {
@@ -638,4 +638,18 @@ section.services {
 }
 
 
+/*Styles for visit us*/
+/* Styling for Map Section */
+.map {
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.map iframe {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+}
 
