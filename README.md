@@ -53,7 +53,7 @@ The current website has very outdated look, lacks engaging content organization,
 
 **Content Blocks**:
 
-- Header with logo, nav and searchbar.
+- Header with logo, nav.
 - Detailed descriptions of each service (e.g., physiotherapy, rehabilitation, injury prevention).
 - High-quality images representing the services.
 - One section with Facilities.
@@ -61,8 +61,8 @@ The current website has very outdated look, lacks engaging content organization,
 
 **Features**:
 
-- Collapsible sections for easy readability.
-- Interactive contact button linked to appointment booking.
+-
+-
 
 ---
 
@@ -73,6 +73,7 @@ The current website has very outdated look, lacks engaging content organization,
 - Header with logo, nav and searchbar.
 - Clinic address, phone number, and email.
 - Google Maps integration for directions.
+- Video related to the content.
 - Hours of operation.
 - Footer will be having information for contact.
 

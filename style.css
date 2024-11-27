@@ -440,7 +440,74 @@ section.services {
 
 }
 
+/*Styling for Services page*/
 
+
+.services2 {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.services2 h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #006699;
+  padding-bottom: 10px;
+}
+
+
+.service {
+  margin-bottom: 30px;
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-info p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.service-img {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.service-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+@media (min-width: 768px) {
+  .service-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .service-info {
+    width: 50%;
+  }
+
+  .service-img {
+    width: 45%;
+  }
+}
 
 
 
