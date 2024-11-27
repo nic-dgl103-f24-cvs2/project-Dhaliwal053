@@ -478,7 +478,7 @@ section.services {
 }
 
 .service-info p {
-  font-size: 1rem;
+
   color: #555;
   line-height: 1.6;
 }
@@ -494,6 +494,76 @@ section.services {
   border-radius: 8px;
 }
 
+/*  Styles for Facilities Section */
+.facilities {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+}
+
+.facilities h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #003366;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+.facilities-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.facility-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.facility-item:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.facility-item h3 {
+  font-size: 1.8rem;
+  color: #003366;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.facility-item p {
+  font-size: 1.1rem;
+  color: #666666;
+  line-height: 1.6;
+  margin-top: 15px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.facility-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: opacity 0.3s ease;
+}
+
+
 
 @media (min-width: 768px) {
   .service-content {
@@ -508,10 +578,29 @@ section.services {
   .service-img {
     width: 45%;
   }
+  /* Two items per row on larger screens */
+  .facilities-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  
+  .facility-image {
+    height: 250px;
+  }
 }
 
 
 
+@media (min-width: 1200px) {
+  /* Three items per row for even larger screens */
+  .facilities-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .facility-image {
+    height: 300px;
+  }
+}
 
 
 
