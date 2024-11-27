@@ -36,7 +36,7 @@ The current website has very outdated look, lacks engaging content organization,
 
 - Header with logo and nav .
 - Hero Introduction to Ascent Physiotherapy with a brief mission statement.
-- Overview of core services with icons and brief descriptions.
+- Overview of services with brief descriptions.
 - Call-to-action button (e.g., "Book an Appointment").
 - Weblinks
 - Footer will be having information for contact.
