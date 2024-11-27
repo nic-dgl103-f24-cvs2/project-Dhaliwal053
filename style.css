@@ -150,6 +150,49 @@ section.services {
   line-height: 1.5;
   margin: 0;
 }
+/* Call-to-Action Section Styling */
+.call-to-action {
+  background-color: #0077cc; 
+  color: #ffffff; 
+  text-align: center; 
+  padding: 40px 20px; /* Space around the content */
+  margin: 20px auto; /* Add vertical margin */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.call-to-action .cta-content {
+  max-width: 800px; /* Limit content width for readability */
+  margin: 0 auto; /* Center the content */
+}
+
+.call-to-action h2 {
+  font-size: 2rem; 
+  margin-bottom: 15px; /* Space below the heading */
+  font-weight: bold; 
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+  line-height: 1.6; 
+  margin-bottom: 25px; /* Space below the paragraph */
+}
+
+.call-to-action .cta-button {
+  background-color: #ffcc33; 
+  color: #003366; /
+  text-decoration: none;
+  font-size: 1.2rem; 
+  font-weight: bold; 
+  padding: 12px 30px; /* Add padding for clickable area */
+  border-radius: 5px; /* Rounded corners for the button */
+  transition: background 0.3s ease; /* Smooth hover effect */
+}
+
+.call-to-action .cta-button:hover {
+  background-color: #ffc111; 
+  color: #002244;
+}
 
    
         .merriweather-bold {
@@ -216,6 +259,18 @@ section.services {
 .service p {
     font-size: 1.125rem;
 }
+.call-to-action h2 {
+  font-size: 2.5rem; 
+}
+
+.call-to-action p {
+  font-size: 1.4rem; 
+}
+
+.call-to-action .cta-button {
+  font-size: 1.4rem; 
+  padding: 15px 40px; 
+}
 }
 
 /* Desktop view (min-width: 1200px) */
@@ -274,9 +329,30 @@ section.services {
 .service p {
     font-size: 1.125rem;
 }
+.call-to-action {
+  padding: 60px 40px;
+}
+
+.call-to-action h2 {
+  font-size: 3rem; 
+}
+
+.call-to-action p {
+  font-size: 1.6rem; /* Larger text for readability */
+}
 }
 
 
 
 
+
+
+/* Responsive Design */
+@media (min-width: 600px) {
+ 
+}
+
+@media (min-width: 1024px) {
+  
+}
 
