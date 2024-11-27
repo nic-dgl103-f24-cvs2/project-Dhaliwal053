@@ -94,7 +94,7 @@ The current website has very outdated look, lacks engaging content organization,
 
 - **Typography**:
 
-  - Modern sans-serif fonts for readability and professionalism.
+  - Merriweather and Lato fonts for readability and professionalism.
 
 - **Imagery**:
 
