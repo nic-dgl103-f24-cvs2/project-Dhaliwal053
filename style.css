@@ -181,7 +181,7 @@ section.services {
 .call-to-action .cta-button {
   background-color: #ffcc33; 
   color: #003366; /
-  text-decoration: none;
+  
   font-size: 1.2rem; 
   font-weight: bold; 
   padding: 12px 30px; /* Add padding for clickable area */
@@ -196,7 +196,7 @@ section.services {
 /*  Footer Styles */
 .footer {
   background-color: #f2f9fc; */
-  color: #333333; 
+  
   padding: 30px 15px; 
   text-align: left; 
 }
@@ -358,9 +358,7 @@ section.services {
 .footer-info p {
   font-size: 1.1rem; 
 
-.footer-links {
-  text-align: left;  
-}
+
 
 .footer-links a {
   font-size: 1.1rem; 
