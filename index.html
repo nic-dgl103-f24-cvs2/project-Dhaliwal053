@@ -152,7 +152,54 @@
             appointment today and let us help you achieve your goals with
             personalized physiotherapy care.
           </p>
-          <a href="#book-now" class="cta-button">Book an Appointment</a>
+          <form action="#" method="POST" class="cta-form">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              required
+            />
+
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone number"
+              required
+            />
+
+            <label for="appointment-date">Preferred Appointment Date</label>
+            <input
+              type="date"
+              id="appointment-date"
+              name="appointment-date"
+              required
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell us about your concerns..."
+              required
+            ></textarea>
+
+            <button type="submit" class="cta-button">
+              Book an Appointment
+            </button>
+          </form>
         </div>
       </section>
     </main>
