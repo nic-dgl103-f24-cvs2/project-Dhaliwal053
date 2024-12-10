@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ascent Physiotherapy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!--Lato & Merriweather-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav__elements">
+          <a class="toggle" onclick="showNav()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </a>
+          <img
+            src="images/logo.png"
+            alt="Ascent Physiotherapy Logo"
+            class="logo"
+          />
+          <ul id="nav-items" class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="visitus.html">Visit Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <script>
+      function showNav() {
+        const navItems = document.getElementById("nav-items");
+        navItems.classList.toggle("show-items");
+      }
+    </script>
+
+    <main>
+      <section class="hero">
+        <h1>Welcome</h1>
+        <img src="Images/employee-pictures.jpg" alt="Ascent clinic employees" />
+        <p>
+          Ascent Physiotherapy is a full service physiotherapy clinic located in
+          Comox, BC. We offer Physiotherapy, including Manual/Manipulative
+          Therapy, IMS, Acupuncture, Radial Shockwave Therapy and exercise
+          prescription including Personal Training to the residents of the Comox
+          Valley and surrounding area.
+        </p>
+      </section>
+      <!--The section below was created with the help of Chat-GPT because of lack of content-->
+      <section class="services">
+        <section class="service">
+          <h2>Physical Therapy</h2>
+          <p>
+            A comprehensive approach to restoring movement and function,
+            alleviating pain, and improving overall mobility through
+            personalized exercises and techniques.
+          </p>
+        </section>
+        <section class="service">
+          <h2>Manual and Manipulative Therapy</h2>
+          <p>
+            Hands-on techniques designed to improve joint mobility, reduce
+            muscle tension, and enhance overall physical function.
+          </p>
+        </section>
+        <section class="service">
+          <h2>Intramuscular Stimulation (IMS)</h2>
+          <p>
+            A therapeutic technique using fine needles to target tight muscle
+            bands, relieve chronic pain, and improve mobility.
+          </p>
+        </section>
+        <section class="service">
+          <h2>Acupuncture</h2>
+          <p>
+            A traditional and evidence-based treatment using fine needles to
+            stimulate specific points, promoting natural healing and pain
+            relief.
+          </p>
+        </section>
+        <section class="service">
+          <h2>Radial Shockwave Therapy</h2>
+          <p>
+            A non-invasive treatment that uses acoustic waves to accelerate
+            tissue repair, reduce pain, and treat chronic soft tissue injuries.
+          </p>
+        </section>
+        <section class="service">
+          <h2>Worksafe BC</h2>
+          <p>
+            Specialized services for workplace injury recovery, helping patients
+            return to work safely and efficiently.
+          </p>
+        </section>
+        <section class="service">
+          <h2>ICBC</h2>
+          <p>
+            Tailored rehabilitation services for individuals recovering from
+            motor vehicle accidents, ensuring optimal recovery and support.
+          </p>
+        </section>
+        <section class="service">
+          <h2>Treatment for TMJ Dysfunction</h2>
+          <p>
+            Therapy aimed at relieving jaw pain, improving movement, and
+            reducing tension in the temporomandibular joint.
+          </p>
+        </section>
+        <section class="service">
+          <h2>Myofascial Release and Craniosacral Therapy</h2>
+          <p>
+            Gentle techniques focusing on releasing tension in the fascia and
+            promoting relaxation and pain relief.
+          </p>
+        </section>
+        <section class="service">
+          <h2>Sports Therapy</h2>
+          <p>
+            Specialized care for athletes to enhance performance, recover from
+            injuries, and prevent future issues.
+          </p>
+        </section>
+        <section class="service">
+          <h2>Athletic Taping/Bracing</h2>
+          <p>
+            Techniques designed to provide support, stability, and injury
+            prevention during physical activities.
+          </p>
+        </section>
+      </section>
+      <section class="call-to-action">
+        <div class="cta-content">
+          <h2>Take the First Step to Better Health</h2>
+          <p>
+            Ready to start your journey to recovery and wellness? Book an
+            appointment today and let us help you achieve your goals with
+            personalized physiotherapy care.
+          </p>
+          <form action="#" method="POST" class="cta-form">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              required
+            />
+
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone number"
+              required
+            />
+
+            <label for="appointment-date">Preferred Appointment Date</label>
+            <input
+              type="date"
+              id="appointment-date"
+              name="appointment-date"
+              required
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell us about your concerns..."
+              required
+            ></textarea>
+
+            <button type="submit" class="cta-button">
+              Book an Appointment
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-info">
+          <h4>Ascent Physiotherapy</h4>
+          <p>123 Main Street, Comox, BC V9M 1T4</p>
+          <p><i class="fas fa-phone"></i> 250-339-1039</p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:info@ascentphysiotherapy.com"
+              >info@ascentphysiotherapy.com</a
+            >
+          </p>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Ascent Physiotherapy. All rights reserved.</p>
+      </div>
+      <p>
+        Disclaimer: “This is a fictional website that was designed and coded as
+        an educational exercise. It is not intended to be seen outside of the
+        class environment. None of the content and images were approved by the
+        business owner.”
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ascent Physiotherapy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!--Lato & Merriweather-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav__elements">
+          <a class="toggle" onclick="showNav()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </a>
+          <img
+            src="images/logo.png"
+            alt="Ascent Physiotherapy Logo"
+            class="logo"
+          />
+          <ul id="nav-items" class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="visitus.html">Visit Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <script>
+      function showNav() {
+        const navItems = document.getElementById("nav-items");
+        navItems.classList.toggle("show-items");
+      }
+    </script>
+
+    <main>
+      <!--This content is from chat-GPT -->
+      <!--Images from Pininterest-->
+      <section class="services2">
+        <h2>Our Services</h2>
+
+        <article class="service">
+          <h3>Physical Therapy</h3>
+          <section class="service-info">
+            <p>
+              Physical therapy focuses on restoring mobility, alleviating pain,
+              and enhancing overall physical function. Whether you're recovering
+              from an injury, surgery, or dealing with chronic conditions like
+              arthritis, our tailored treatments and exercise programs are
+              designed to help you regain strength and improve quality of life.
+            </p>
+          </section>
+          <div class="service-img">
+            <img src="images/physical-therapy.jpeg" alt="Physical Therapy" />
+          </div>
+        </article>
+
+        <article class="service">
+          <h3>Manual and Manipulative Therapy</h3>
+          <section class="service-info">
+            <p>
+              Our manual therapy techniques involve hands-on manipulation of
+              joints and soft tissues to relieve pain, improve alignment, and
+              promote natural healing. These therapies are ideal for treating
+              conditions such as back pain, neck stiffness, and joint
+              dysfunction.
+            </p>
+          </section>
+          <div class="service-img">
+            <img
+              src="images/manual-therapy.jpeg"
+              alt="Manual and Manipulative Therapy"
+            />
+          </div>
+        </article>
+
+        <article class="service">
+          <h3>Intramuscular Stimulation (IMS)</h3>
+          <section class="service-info">
+            <p>
+              IMS is a specialized treatment for chronic pain caused by muscle
+              tightness and nerve irritation. Using fine needles, we target deep
+              muscle layers to release tension, improve mobility, and stimulate
+              natural healing processes.
+            </p>
+          </section>
+          <div class="service-img">
+            <img src="images/ims.jpeg" alt="Intramuscular Stimulation (IMS)" />
+          </div>
+        </article>
+
+        <article class="service">
+          <h3>Acupuncture</h3>
+          <section class="service-info">
+            <p>
+              Acupuncture is a holistic approach that involves the strategic
+              placement of fine needles to promote energy flow, reduce pain, and
+              improve overall wellness. It is effective for managing stress,
+              migraines, and chronic pain conditions.
+            </p>
+          </section>
+          <div class="service-img">
+            <img src="images/acupuncture.jpeg" alt="Acupuncture" />
+          </div>
+        </article>
+      </section>
+
+      <section class="facilities">
+        <h2>Our Facilities</h2>
+        <div class="facilities-container">
+          <section class="facility-item">
+            <img
+              src="images/cubicle.jpg"
+              alt="Treatment Cubicles"
+              class="facility-image"
+            />
+            <h3>Private and Semi-Private Treatment Cubicles</h3>
+            <p>
+              Ascent Physiotherapy is currently equipped with 12 private and
+              semi-private treatment cubicles.
+            </p>
+          </section>
+          <section class="facility-item">
+            <img
+              src="images/gymarea.jpeg"
+              alt="Gym Area"
+              class="facility-image"
+            />
+            <h3>Gym Area</h3>
+            <p>
+              Large gym area equipped with treadmill, stationary bike, balance
+              equipment, free weights, and a weight rack.
+            </p>
+          </section>
+          <section class="facility-item">
+            <img
+              src="images/floorexercisearea.jpg"
+              alt="Floor Exercise Area"
+              class="facility-image"
+            />
+            <h3>Floor Exercise Area</h3>
+            <p>
+              Large floor exercise area with room for gait analysis and
+              balance/co-ordination exercises.
+            </p>
+          </section>
+          <section class="facility-item">
+            <img
+              src="images/modalities.jpg"
+              alt="Therapeutic Modalities"
+              class="facility-image"
+            />
+            <h3>Modalities</h3>
+            <p>
+              Modalities include radial shockwave therapy, moist heat, ice,
+              therapeutic ultrasound, interferential current (IFC),
+              transcutaneous electrical stimulation (TENS), muscle stimulation,
+              and traction.
+            </p>
+          </section>
+          <section class="facility-item">
+            <img
+              src="images/treatment-attire.jpg"
+              alt="Treatment Attire"
+              class="facility-image"
+            />
+            <h3>Treatment Attire</h3>
+            <p>
+              Treatment attire is provided, but we encourage you to bring your
+              own athletic shorts or yoga pants.
+            </p>
+          </section>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-info">
+          <h4>Ascent Physiotherapy</h4>
+          <p>123 Main Street, Comox, BC V9M 1T4</p>
+          <p><i class="fas fa-phone"></i> 250-339-1039</p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:info@ascentphysiotherapy.com"
+              >info@ascentphysiotherapy.com</a
+            >
+          </p>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Ascent Physiotherapy. All rights reserved.</p>
+      </div>
+      <p>
+        Disclaimer: “This is a fictional website that was designed and coded as
+        an educational exercise. It is not intended to be seen outside of the
+        class environment. None of the content and images were approved by the
+        business owner.”
+      </p>
+    </footer>
+  </body>
+</html>
